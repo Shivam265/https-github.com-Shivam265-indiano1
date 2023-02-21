@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background-color:bisque;
+}
+*{margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    list-style-type: none;
+    height:80px;
+    background-color:black;
+    color:white;
+
+}
+nav ul li  {
+    padding: 0 15px;
+    
+}
+.d-flex{
+    padding:20rem;
+}
+#login{
+    text-align: right;
+    
+}
+.button:hover{
+    color:red;
+
+}
+.brand img{
+    width:80px;
+    padding:20px;
+    height: 50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    top:7.0px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 0 15px;
+    cursor: pointer;
+}
+
+#progressbar{
+    cursor: pointer;
+    width:120vh;
+    text-align: center;
+}
+.songItemContainer{
+    cursor: pointer;
+
+}
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color:red;
+    display: flex;
+    margin:20px auto 20px;
+    width:75%;
+    border-radius: 15px;
+    padding: 35px;
+    background-image: url('rohit5.jpg');
+}
+h1{
+    margin-top: 30px;
+    height:50px;
+}
+.songItem{
+    height:60px;
+    display: flex;
+    background-color: white;
+    width:107%;
+    color: black;
+    margin-top: 33px;
+    margin-top: 12px 0;
+    justify-content: space-around;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.songItem img{
+    margin: 10 20px;
+    border-radius: 20px;
+}
+.timestamp{
+    margin:0 20px;
+    cursor: pointer;
+
+}
+.timestamp i{
+    cursor: pointer;
+}
+li:hover{
+    font-size: 15px;
+}
+li{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left:20vw;
+}
+.songInfo img{
+    opacity: 1;
+    transition:opacity 0.4s ease-in;
+
+}
